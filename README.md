@@ -130,6 +130,34 @@ Durante el desarrollo del proyecto, se han implementado varias técnicas y patro
 
 ## Integración de sensores en interfaces multimodales
 
+En el desarrollo de la aplicación, no se ha hecho uso de sensores como giroscopios, acelerómetros o detectores de proximidad, ya que su implementación no se alinea con los objetivos ni con la experiencia de usuario planteada para el proyecto.
+
+### Justificación de la No Implementación de Sensores
+
+  - **1.- Plataforma de Realidad Virtual (Cardboard) y Control por Mando**
+  
+    - El proyecto se ha diseñado para ser compatible con Google Cardboard y un mando Bluetooth (Xbox o PlayStation) como dispositivos principales de interacción. Esto permite un control más preciso del personaje mediante el joystick, lo que es esencial para mantener una experiencia de usuario fluida y predecible en un entorno de terror.
+  
+    - El uso de sensores como giroscopios para mover la cámara o acelerómetros para interactuar podría generar incomodidad en los jugadores y no aportaría valor significativo en el contexto del juego.
+    
+  - **2.- Temática de Terror y Control de Movimiento**
+  
+    - En un juego de terror, el diseño busca crear una experiencia inmersiva pero controlada, donde el usuario tenga pleno dominio sobre sus acciones y desplazamientos.
+  
+    - Integrar sensores que dependan de movimientos físicos, como girar el dispositivo para mirar o interactuar, puede resultar contraproducente, ya que:
+  
+      - Podría incrementar la sensación de mareo (motion sickness).
+    
+      - Disminuiría la precisión en el control, especialmente en momentos críticos del juego donde el usuario necesita reaccionar rápidamente.
+    
+      - Podría romper la inmersión si los sensores no funcionan con la precisión deseada.
+      
+  - **3.- Simplicidad y Focalización del Proyecto**
+  
+    - Dado que el proyecto se encuentra en una etapa inicial, hemos optado por soluciones más directas y confiables, como el uso del mando para interactuar y desplazarse.
+    
+    - La integración de sensores añadiría una complejidad innecesaria al desarrollo, desviando el enfoque de los elementos centrales del juego, como la ambientación, narrativa y diseño interactivo.
+
 ## Demostración visual de la ejecución (GIF animado)
 
 ## Acta de acuerdos del grupo respecto al trabajo en equipo
