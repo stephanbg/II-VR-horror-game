@@ -128,6 +128,22 @@ Durante el desarrollo del proyecto, se han implementado varias técnicas y patro
 
 ## Aspectos destacados de la aplicación desarrollada
 
+**1.- Temática y Experiencia Inmersiva**: La demo se centra en sumergir al jugador en un mundo oscuro y amenazante, donde una invasión alienígena ha devastado el entorno. La misión principal consiste en explorar el escenario en busca del "Corazón Dorado", el único artefacto capaz de revertir la presencia de los invasores. A través de una combinación de efectos visuales, sonoros y narrativos, la demo crea una atmósfera opresiva e intrigante, perfecta para los amantes del género de terror.
+
+**2.- Diseño de Interacciones**: Aunque no incluye puzzles complejos, la demo pone énfasis en la interacción con objetos clave del entorno. Elementos como puertas, objetos brillantes y zonas específicas invitan al jugador a explorar y descubrir detalles ocultos, reforzando la narrativa del juego.
+
+**3.- Demostración Técnica**: Esta demo sirve como una prueba del concepto técnico y artístico detrás del juego completo. Se han implementado controles optimizados para VR mediante un mando Bluetooth, efectos visuales dinámicos para guiar al jugador, y un diseño narrativo que introduce los elementos centrales del mundo de juego.
+
+**4.- Ambientación Visual y Sonora**:
+
+  - Visual: Uso de iluminación dramática para crear contrastes que dirigen la atención y refuerzan el suspense.
+  
+  - Sonora: Una banda sonora minimalista y efectos ambientales realistas como pasos, crujidos y ruidos alienígenas que aumentan la tensión y la inmersión.
+
+**5.- Enfoque en Realidad Virtual (VR)**: La compatibilidad con dispositivos VR como Google Cardboard permite al jugador experimentar la demo desde una perspectiva más inmersiva. Gracias a los controles intuitivos y a las transiciones suaves, la experiencia es accesible y cómoda incluso para usuarios con poca experiencia en VR.
+
+---
+
 ## Integración de sensores en interfaces multimodales
 
 En el desarrollo de la aplicación, no se ha hecho uso de sensores como giroscopios, acelerómetros o detectores de proximidad, ya que su implementación no se alinea con los objetivos ni con la experiencia de usuario planteada para el proyecto.
