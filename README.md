@@ -105,12 +105,12 @@ Durante el desarrollo del proyecto, se han implementado varias técnicas y patro
 - **Descripción**: Se aplicaron principios y convenciones específicas para evitar el mareo por movimiento (motion sickness) y mejorar la comodidad del usuario en VR.
   
 - **Aplicación en el Proyecto**
+
+  - Movimiento Suave de Cámara: La cámara está configurada para evitar movimientos bruscos y aceleraciones repentinas, manteniendo una transición suave al moverse o girar.
+
+  - Interacciones Estables: Se han optimizado las transiciones entre estados, como cambios de vista o enfoques de cámara, para que sean graduales y naturales.
   
- - Movimiento Suave de Cámara: La cámara está configurada para evitar movimientos bruscos y aceleraciones repentinas, manteniendo una transición suave al moverse o girar.
- 
- - Interacciones Estables: Se han optimizado las transiciones entre estados, como cambios de vista o enfoques de cámara, para que sean graduales y naturales.
- 
- - Objetos Interactuables Claros: El uso de resaltes y efectos visuales reduce la carga cognitiva del usuario, ayudándole a identificar fácilmente elementos interactuables sin necesidad de explorar de forma exhaustiva.
+  - Objetos Interactuables Claros: El uso de resaltes y efectos visuales reduce la carga cognitiva del usuario, ayudándole a identificar fácilmente elementos interactuables sin necesidad de explorar de forma exhaustiva.
 
 - **Relación con los Contenidos**: Estas prácticas están alineadas con los estándares de diseño VR impartidos, que priorizan la comodidad y accesibilidad del usuario.
 
