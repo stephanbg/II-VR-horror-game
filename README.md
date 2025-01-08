@@ -158,6 +158,56 @@ En el desarrollo de la aplicación, no se ha hecho uso de sensores como giroscop
     
     - La integración de sensores añadiría una complejidad innecesaria al desarrollo, desviando el enfoque de los elementos centrales del juego, como la ambientación, narrativa y diseño interactivo.
 
+---
+
 ## Demostración visual de la ejecución (GIF animado)
 
 ## Acta de acuerdos del grupo respecto al trabajo en equipo
+
+En el desarrollo del proyecto, se estableció una distribución clara de responsabilidades entre los miembros del equipo, permitiendo una colaboración eficiente y efectiva. A continuación, se detalla la contribución de cada integrante según las áreas principales del proyecto:
+
+### Aday - Implementación de Controles y Animaciones
+
+Aday se encargó de todo lo relacionado con la configuración y programación de los controles del mando, asegurando una integración fluida con el sistema de movimiento del personaje y el manejo de la cámara. Su trabajo incluyó:
+
+  - El diseño e implementación de controles adaptados al uso de mandos de Xbox y PlayStation.
+  
+  - Ajustes en la cámara para garantizar transiciones suaves y un movimiento adecuado en primera persona, especialmente en un entorno de terror donde la inmersión es clave.
+  
+  - Integración y refinamiento de animaciones específicas vinculadas a las acciones del jugador, como caminar, correr y transiciones entre estados.
+    
+### Sofía - Desarrollo de Mecánicas del Juego
+
+Sofía asumió la mayor parte del trabajo relacionado con las mecánicas centrales del juego, contribuyendo significativamente a la jugabilidad general. Entre sus logros destacan:
+
+  - **Sistema de Vidas**: Creación de un sistema funcional que gestiona la salud del jugador y permite un control dinámico sobre el progreso y los desafíos del juego.
+  
+  - **Inventario**: Implementación de un sistema de inventario que permite al jugador recoger, gestionar y utilizar objetos esenciales para avanzar en la historia.
+  
+  - **Interacciones con el Entorno**: Desarrollo de mecánicas como la apertura de puertas y la recogida de elementos, asegurando que fueran intuitivas y fluidas para los jugadores.
+  
+  - Optimización de estas funcionalidades para integrarlas con los demás sistemas del proyecto.
+    
+### Stephan - Gestión de Assets y Eventos Narrativos
+
+Stephan centró su esfuerzo en los elementos artísticos y narrativos del juego, así como en la ambientación de los eventos clave que dan forma a la experiencia de terror. Sus aportes incluyen:
+
+  - **Búsqueda y Selección de Assets**: Identificación y adaptación de personajes, objetos y escenarios que se alinean con la historia y la atmósfera del juego.
+  
+  - **Eventos de Animación**: Configuración de secuencias de sustos y persecuciones, diseñadas para maximizar el impacto emocional en el jugador.
+  
+  - **Sonido y Ambientes**: Selección y edición de efectos sonoros que refuercen la narrativa y aumenten la inmersión, como pasos, puertas que crujen y música de fondo en escenas clave.
+  
+  - Configuración de zonas específicas para eventos de persecución, ajustando los tiempos y comportamientos de los NPC para generar tensión y desafío.
+    
+### Control de Versiones y Colaboración en Paralelo
+
+Para optimizar la productividad y facilitar la colaboración sin interferir entre las tareas de los miembros del equipo, se utilizó el control de versiones de Unity. El proyecto se dividió en tres ramas principales, una para cada área de trabajo de los integrantes:
+
+  - Aday trabajó en la rama de **Controles y Animaciones**
+  
+  - Sofía se encargó de la rama de **Mecánicas del Juego**
+  
+  - Stephan gestionó la rama de **Assets y Eventos Narrativos**
+    
+Este enfoque permitió que cada miembro pudiera avanzar en paralelo, sin conflictos de integración, y facilitó la consolidación de cambios al final de cada etapa del desarrollo. De esta manera, se logró un flujo de trabajo eficiente y organizado, asegurando la calidad y coherencia del proyecto.
