@@ -26,13 +26,13 @@ El uso de la aplicación, desarrollada en Unity, requiere un entorno mínimo de 
 
 ### 2. Controlador Externo Compatible
 
-El manejo del personaje principal se realiza mediante un controlador Bluetooth externo. Los modelos recomendados incluyen:
+El manejo del personaje principal se realiza mediante un controlador Bluetooth externo o por cable. Los modelos recomendados incluyen:
 
- - **Mando de Xbox**: Compatible con los modelos Bluetooth, como Xbox One y Xbox Series X|S.
+ - **Mando de Xbox**: Como Xbox One y Xbox Series X|S.
  
- - **Mando de PlayStation**: DualShock 4 y DualSense (PlayStation 4 y 5), ambos con soporte Bluetooth.
+ - **Mando de PlayStation**: DualShock 4 y DualSense (PlayStation 4 y 5).
    
-La conexión se realiza directamente al dispositivo móvil mediante emparejamiento Bluetooth, sin necesidad de configuraciones adicionales en la mayoría de los casos. Unity se encarga de la detección automática del controlador y mapea los botones de entrada según las configuraciones estándar del dispositivo.
+La conexión se realiza directamente al dispositivo móvil mediante emparejamiento Bluetooth o por cable como ya se mencionó, sin necesidad de configuraciones adicionales en la mayoría de los casos. Este programa se encarga de la detección automática del controlador y mapea los botones de entrada según las configuraciones estándar del dispositivo.
 
 ### 3. Rendimiento y Configuración
 
@@ -60,7 +60,7 @@ La conexión se realiza directamente al dispositivo móvil mediante emparejamien
 
 ### Beneficio Técnico
 
-Este diseño garantiza que el usuario pueda disfrutar de una experiencia de juego inmersiva sin necesidad de hardware adicional más allá del dispositivo móvil y un mando Bluetooth. La optimización de los recursos en Unity asegura que la aplicación se mantenga por debajo de los 6 GB de almacenamiento total, maximizando la calidad visual y el rendimiento incluso en dispositivos de gama media. Esto minimiza los costos asociados al hardware y reduce las barreras de entrada para los usuarios.
+Este diseño garantiza que el usuario pueda disfrutar de una experiencia de juego inmersiva sin necesidad de hardware adicional más allá del dispositivo móvil y un mando. La optimización de los recursos en Unity asegura que la aplicación se mantenga por debajo de los 6 GB de almacenamiento total, maximizando la calidad visual y el rendimiento incluso en dispositivos de gama media. Esto minimiza los costos asociados al hardware y reduce las barreras de entrada para los usuarios.
 
 ---
 
@@ -94,11 +94,11 @@ Durante el desarrollo del proyecto, se han implementado varias técnicas y patro
   
     - Los objetos interactuables tienen un sistema de cambio de brillo o resaltado, que los distingue del resto del entorno y mejora la experiencia de usuario.
     
-    - Este cambio visual se activa al apuntar o mirar directamente al objeto en VR, facilitando la identificación de elementos clave.
+    - Este cambio visual permanece activo en todo momento, permitiendo una fácil identificación de elementos clave. Al apuntar o mirar directamente a estos objetos en VR, la retícula del Cardboard se amplía automáticamente, destacando su presencia y facilitando la interacción.
     
   - Capas Personalizadas: Los objetos se agrupan en capas específicas que filtran cuáles pueden ser interactuados, asegurando que solo los elementos relevantes respondan a las entradas del usuario.
 
-- **Relación con los Contenidos**: Este sistema está basado en principios de diseño centrados en el usuario, aprendidos durante el curso, y aprovecha el uso de raycasts y máscaras de capa para gestionar la interacción en VR.
+- **Relación con los Contenidos**: Este sistema está basado en principios de diseño centrados en el usuario, aprendidos durante el curso, y aprovecha el uso de máscaras de capa para gestionar la interacción en VR.
 
 ### 3. Convenios de Diseño en VR para Mejorar la Experiencia del Usuario
 
@@ -128,17 +128,17 @@ Durante el desarrollo del proyecto, se han implementado varias técnicas y patro
 
 ## Aspectos destacados de la aplicación desarrollada
 
-**1.- Temática y Experiencia Inmersiva**: La demo se centra en sumergir al jugador en un mundo oscuro y amenazante, donde una invasión alienígena ha devastado el entorno. La misión principal consiste en explorar el escenario en busca del "Corazón Dorado", el único artefacto capaz de revertir la presencia de los invasores. A través de una combinación de efectos visuales, sonoros y narrativos, la demo crea una atmósfera opresiva e intrigante, perfecta para los amantes del género de terror.
+**1.- Temática y Experiencia Inmersiva**: La demo se centra en sumergir al jugador en un mundo oscuro y amenazante, donde una invasión alienígena ha devastado el entorno. La misión principal consiste en explorar el escenario en busca del "Corazón sw Hierro", el único artefacto capaz de revertir la presencia de los invasores. A través de una combinación de efectos visuales, sonoros y narrativos, la demo crea una atmósfera opresiva e intrigante, perfecta para los amantes del género de terror.
 
 **2.- Diseño de Interacciones**: Aunque no incluye puzzles complejos, la demo pone énfasis en la interacción con objetos clave del entorno. Elementos como puertas, objetos brillantes y zonas específicas invitan al jugador a explorar y descubrir detalles ocultos, reforzando la narrativa del juego.
 
-**3.- Demostración Técnica**: Esta demo sirve como una prueba del concepto técnico y artístico detrás del juego completo. Se han implementado controles optimizados para VR mediante un mando Bluetooth, efectos visuales dinámicos para guiar al jugador, y un diseño narrativo que introduce los elementos centrales del mundo de juego.
+**3.- Demostración Técnica**: Esta demo sirve como una prueba del concepto técnico y artístico detrás del juego completo. Se han implementado controles optimizados para VR mediante un mando, efectos visuales dinámicos para guiar al jugador, y un diseño narrativo que introduce los elementos centrales del mundo de juego.
 
 **4.- Ambientación Visual y Sonora**:
 
   - Visual: Uso de iluminación dramática para crear contrastes que dirigen la atención y refuerzan el suspense.
   
-  - Sonora: Una banda sonora minimalista y efectos ambientales realistas como pasos, crujidos y ruidos alienígenas que aumentan la tensión y la inmersión.
+  - Sonora: Una banda sonora minimalista y efectos ambientales realistas como ruidos alienígenas que aumentan la tensión y la inmersión.
 
 **5.- Enfoque en Realidad Virtual (VR)**: La compatibilidad con dispositivos VR como Google Cardboard permite al jugador experimentar la demo desde una perspectiva más inmersiva. Gracias a los controles intuitivos y a las transiciones suaves, la experiencia es accesible y cómoda incluso para usuarios con poca experiencia en VR.
 
@@ -152,21 +152,21 @@ En el desarrollo de la aplicación, no se ha hecho uso de sensores como giroscop
 
   - **1.- Plataforma de Realidad Virtual (Cardboard) y Control por Mando**
   
-    - El proyecto se ha diseñado para ser compatible con Google Cardboard y un mando Bluetooth (Xbox o PlayStation) como dispositivos principales de interacción. Esto permite un control más preciso del personaje mediante el joystick, lo que es esencial para mantener una experiencia de usuario fluida y predecible en un entorno de terror.
+    - El proyecto se ha diseñado para ser compatible con Google Cardboard y un mando (Xbox o PlayStation) como dispositivos principales de interacción. Esto permite un control más preciso del personaje mediante el joystick, lo que es esencial para mantener una experiencia de usuario fluida y predecible en un entorno de terror.
   
-    - El uso de sensores como giroscopios para mover la cámara o acelerómetros para interactuar podría generar incomodidad en los jugadores y no aportaría valor significativo en el contexto del juego.
+    - Aunque utilizamos el giroscopio del Cardboard para controlar la orientación de la cámara, no consideramos necesario incorporar otros sensores como acelerómetros para interactuar. El uso de estos elementos adicionales podría generar incomodidad en los jugadores sin aportar un valor significativo en el contexto del juego.
     
   - **2.- Temática de Terror y Control de Movimiento**
   
-    - En un juego de terror, el diseño busca crear una experiencia inmersiva pero controlada, donde el usuario tenga pleno dominio sobre sus acciones y desplazamientos.
+    - En un juego de terror, el diseño se enfoca en crear una experiencia inmersiva pero controlada, donde el jugador tiene pleno dominio sobre sus acciones y desplazamientos.
   
-    - Integrar sensores que dependan de movimientos físicos, como girar el dispositivo para mirar o interactuar, puede resultar contraproducente, ya que:
+    - Aunque utilizamos el giroscopio del Cardboard para controlar la orientación de la cámara, evitar el uso de otros sensores dependientes de movimientos físicos, como los acelerómetros, fue una decisión consciente, ya que:
   
-      - Podría incrementar la sensación de mareo (motion sickness).
-    
-      - Disminuiría la precisión en el control, especialmente en momentos críticos del juego donde el usuario necesita reaccionar rápidamente.
-    
-      - Podría romper la inmersión si los sensores no funcionan con la precisión deseada.
+     - Podría incrementar la sensación de mareo (motion sickness), afectando la comodidad del jugador.
+      
+     - Disminuiría la precisión en el control, especialmente en momentos críticos del juego en los que el jugador necesita reaccionar con rapidez.
+      
+     - Podría romper la inmersión si los sensores no responden con la precisión necesaria, afectando la experiencia de juego.
       
   - **3.- Simplicidad y Focalización del Proyecto**
   
@@ -212,7 +212,7 @@ Stephan centró su esfuerzo en los elementos artísticos y narrativos del juego,
   
   - **Eventos de Animación**: Configuración de secuencias de sustos y persecuciones, diseñadas para maximizar el impacto emocional en el jugador.
   
-  - **Sonido y Ambientes**: Selección y edición de efectos sonoros que refuercen la narrativa y aumenten la inmersión, como pasos, puertas que crujen y música de fondo en escenas clave.
+  - **Sonido y Ambientes**: Selección y edición de efectos sonoros que refuercen la narrativa y aumenten la inmersión, como ruidos de enemigos y música de fondo en escenas clave.
   
   - Configuración de zonas específicas para eventos de persecución, ajustando los tiempos y comportamientos de los NPC para generar tensión y desafío.
     
