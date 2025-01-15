@@ -12,13 +12,13 @@
 
 ## Aspectos clave del uso de la aplicación
 
-El uso de la aplicación, desarrollada en Unity, requiere un entorno mínimo de hardware para garantizar su instalación y operación. A continuación, se detallan los requisitos y recomendaciones técnicas, considerando el tamaño máximo proyectado del aplicativo (6 GB) y los componentes necesarios para una experiencia óptima.
+El uso de la aplicación, desarrollada en Unity, requiere un entorno mínimo de hardware para garantizar su instalación y operación. A continuación, se detallan los requisitos y recomendaciones técnicas, considerando el tamaño máximo proyectado del aplicativo (1 GB) y los componentes necesarios para una experiencia óptima.
 
 ### 1. Dispositivo Móvil Compatible
 
  - **Sistema Operativo**: Android 8.0 (Oreo) o superior, garantizando soporte para aplicaciones modernas y optimización del rendimiento gráfico.
  
- - **Espacio de Almacenamiento**: La aplicación, incluyendo texturas, modelos y otros activos, puede requerir hasta 6 GB de almacenamiento total. Es imprescindible que el dispositivo móvil cuente con al menos 8 GB de espacio libre disponible para permitir instalación, ejecución y posibles actualizaciones futuras.
+ - **Espacio de Almacenamiento**: La aplicación, incluyendo texturas, modelos y otros activos, puede requerir hasta 2 GB de almacenamiento total. Es imprescindible que el dispositivo móvil cuente con al menos 8 GB de espacio libre disponible para permitir instalación, ejecución y posibles actualizaciones futuras.
  
  - **Memoria RAM**: Se recomienda un dispositivo con al menos 3 GB de RAM para ejecutar el proyecto sin problemas, especialmente si la aplicación utiliza elementos gráficos avanzados o física compleja.
    
