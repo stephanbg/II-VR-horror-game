@@ -185,7 +185,7 @@ Este gif muestra la ejecución del juego en Unity en PC, cuando se ejecuta en un
 
 En el desarrollo del proyecto, se estableció una distribución clara de responsabilidades entre los miembros del equipo, permitiendo una colaboración eficiente y efectiva. A continuación, se detalla la contribución de cada integrante según las áreas principales del proyecto:
 
-### Aday - Implementación de Controles y Animaciones
+### Aday - Implementación de Controles, Animaciones y ajuste de Interfaces
 
 Aday se encargó de todo lo relacionado con la configuración y programación de los controles del mando, asegurando una integración fluida con el sistema de movimiento del personaje y el manejo de la cámara. Su trabajo incluyó:
 
