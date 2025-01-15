@@ -20,7 +20,7 @@ El uso de la aplicación, desarrollada en Unity, requiere un entorno mínimo de 
  
  - **Espacio de Almacenamiento**: La aplicación, incluyendo texturas, modelos y otros activos, puede requerir hasta 2 GB de almacenamiento total. Es imprescindible que el dispositivo móvil cuente con al menos 8 GB de espacio libre disponible para permitir instalación, ejecución y posibles actualizaciones futuras.
  
- - **Memoria RAM**: Se recomienda un dispositivo con al menos 3 GB de RAM para ejecutar el proyecto sin problemas, especialmente si la aplicación utiliza elementos gráficos avanzados o física compleja.
+ - **Memoria RAM**: Se recomienda un dispositivo con al menos 3 GB de RAM para ejecutar el proyecto sin problemas.
    
  - **GPU y CPU**: Un procesador de gama media o superior, con soporte para gráficos Vulkan, garantizará una tasa de fotogramas fluida y tiempos de carga razonables.
 
