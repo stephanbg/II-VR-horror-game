@@ -191,6 +191,8 @@ Aday se encargó de todo lo relacionado con la configuración y programación de
   - Ajustes en la cámara para garantizar transiciones suaves y un movimiento adecuado en primera persona, especialmente en un entorno de terror donde la inmersión es clave.
   
   - Integración y refinamiento de animaciones específicas vinculadas a las acciones del jugador, como caminar, correr y transiciones entre estados.
+
+  - Ajuste de las interfaces desarrolladas para su correcta visualización en Cardboard.  
     
 ### Sofía - Desarrollo de Mecánicas del Juego
 
@@ -227,3 +229,4 @@ Para optimizar la productividad y facilitar la colaboración sin interferir entr
   - Stephan gestionó la rama de **Assets y Eventos Narrativos**
     
 Este enfoque permitió que cada miembro pudiera avanzar en paralelo, sin conflictos de integración, y facilitó la consolidación de cambios al final de cada etapa del desarrollo. De esta manera, se logró un flujo de trabajo eficiente y organizado, asegurando la calidad y coherencia del proyecto.
+Más tarde se realizó un **merge de las ramas**, donde trabajamos en conjunto para la **solución de Bugs** que fueron apareciendo en el desarrollo final del juego.
