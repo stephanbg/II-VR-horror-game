@@ -230,3 +230,6 @@ Para optimizar la productividad y facilitar la colaboración sin interferir entr
     
 Este enfoque permitió que cada miembro pudiera avanzar en paralelo, sin conflictos de integración, y facilitó la consolidación de cambios al final de cada etapa del desarrollo. De esta manera, se logró un flujo de trabajo eficiente y organizado, asegurando la calidad y coherencia del proyecto.
 Más tarde se realizó un **merge de las ramas**, donde trabajamos en conjunto para la **solución de Bugs** que fueron apareciendo en el desarrollo final del juego.
+
+### Ejemplo de ejecución del juego
+![ejecucion_juego](Imágenes/Ejecucion_Juego.gif)
