@@ -177,6 +177,9 @@ En el desarrollo de la aplicación, no se ha hecho uso de sensores como giroscop
 ---
 
 ## Demostración visual de la ejecución (GIF animado)
+![ejecucion_juego](Imágenes/Ejecucion_Juego.gif)
+
+Este gif muestra la ejecución del juego en Unity en PC, cuando se ejecuta en un dispositivo móvil se ve diferente (iluminación, cámara, interfaces, etc.).
 
 ## Acta de acuerdos del grupo respecto al trabajo en equipo
 
@@ -229,7 +232,5 @@ Para optimizar la productividad y facilitar la colaboración sin interferir entr
   - Stephan gestionó la rama de **Assets y Eventos Narrativos**
     
 Este enfoque permitió que cada miembro pudiera avanzar en paralelo, sin conflictos de integración, y facilitó la consolidación de cambios al final de cada etapa del desarrollo. De esta manera, se logró un flujo de trabajo eficiente y organizado, asegurando la calidad y coherencia del proyecto.
-Más tarde se realizó un **merge de las ramas**, donde trabajamos en conjunto para la **solución de Bugs** que fueron apareciendo en el desarrollo final del juego.
 
-### Ejemplo de ejecución del juego
-![ejecucion_juego](Imágenes/Ejecucion_Juego.gif)
+Más tarde se realizó un **merge de las ramas**, donde trabajamos en conjunto para la **solución de Bugs** que fueron apareciendo en el desarrollo final del juego.
