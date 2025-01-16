@@ -126,6 +126,16 @@ Durante el desarrollo del proyecto, se han implementado varias técnicas y patro
   - Estos efectos no solo mejoran la interacción, sino que también cumplen un rol narrativo al guiar al jugador hacia los elementos relevantes.
 
 - **Relación con los Contenidos**: Este enfoque se basa en los principios de UX en entornos interactivos, destacando la importancia de la retroalimentación visual y auditiva.
+  
+### 5. Uso del Patrón Singleton
+
+- **Descripción:** El patrón Singleton se utilizó para asegurar que solo exista una instancia de ciertos objetos o sistemas dentro del proyecto. Este patrón es particularmente útil cuando se necesita un punto de acceso global a una única instancia de un objeto, como un gestor de escenas, un controlador de música, o un sistema de puntuación.
+  
+- **Aplicación en el Proyecto:**
+
+  - Pantalla de Muerte: Se implementó un objeto único encargado de gestionar la pantalla de muerte del jugador. Este sistema asegura que solo haya una instancia activa de la pantalla de   muerte en todo momento, evitando la creación de múltiples instancias innecesarias durante el juego.
+  
+- **Relación con los contentidos:** El uso del patrón Singleton es una técnica que ayuda a gestionar la singularidad de recursos en el sistema, tal como se enseñó en el curso. Este patrón fomenta la eficiencia en la gestión de recursos y simplifica el acceso a los mismos, lo que mejora el rendimiento general del juego y evita problemas como el sobreuso de memoria o la creación innecesaria de objetos.
 
 ## Aspectos destacados de la aplicación desarrollada
 
